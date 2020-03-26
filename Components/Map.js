@@ -14,8 +14,14 @@ class Map extends React.Component {
         latitude: 48.858255,
         longitude: 2.347138,
         latitudeDelta: 0.5,
-        longitudeDelta: 0.10}}
-      />
+        longitudeDelta: 0.10,
+      }}
+      >
+      <Marker coordinate = {{latitude: 48.858255,longitude: 2.347138}}
+        pinColor = {"purple"} // any color
+        title={"test"}
+        description={"description"}/>
+      </MapView>
     );
   }
 }
